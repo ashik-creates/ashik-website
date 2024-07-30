@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{job.title}} - Ashik}}</title>
+    {% include 'botstrap.html' %}
+  </head>
+  <body>
+    {% include 'nav.html' %}
+    {% include 'banner.html' %}
+    <div class="container">
+      <h1 class="text-center mt-2 mb-4">My first web page</h1>
+    
+      <h3>Title</h3>
+      <p>{{job.title}}</p>
+      <h3>Location</h3>
+      <p>{{job.location}}</p>
+    </div>
+
+    {% include 'footer.html' %}
+  </body>
+</html>
